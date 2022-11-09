@@ -119,6 +119,8 @@ const revalidarToken = async  (req, res = response) => {
         console.log(error)
         res.status(401).json({
             ok:false,
+            uid,
+            name,
             msg: "error al revalidarToken"
         })
     }
