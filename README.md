@@ -5,7 +5,7 @@
 </p>
 
 # Link del Proyecto en Vercel- 
-**[JournalApp](https://calendar-frontend-v1-mx3lliqe7-gabriel030.vercel.app/auth/login)**
+**[CalendarAPP](https://calendar-frontend-v1-mx3lliqe7-gabriel030.vercel.app/auth/login)**
 
 
 
