@@ -20,7 +20,6 @@
 - Aprender mejores prácticas.
 - Aprender y practicar el workflow de GIT.
 - Usar y practicar testing.
-- 
 
 ## Resultados
 ### Video presentacion del proyecto
@@ -28,22 +27,22 @@
 
 
 ### Requerimientos mínimos:
--Creación de una Login, con mail y contraseña, almacenar info en BD en MONGO
--Creación de pagina de registro
--Creación de un CRUD para los eventos
--Implementar Redux para gestionar los estados
+- Creación de una Login, con mail y contraseña, almacenar info en BD en MONGO
+- Creación de pagina de registro
+- Creación de un CRUD para los eventos
+- Implementar Redux para gestionar los estados
 
 
 ### FRONT-END
 
--Utilización para la parte visual de -  **[React-Big-Calendar](https://www.npmjs.com/package/react-big-calendar)**
--Utilizacion para la seleccion de fechas de  **[React-Datepicker](https://www.npmjs.com/package/react-big-calendar)**
+- Utilización para la parte visual de -  **[React-Big-Calendar](https://www.npmjs.com/package/react-big-calendar)**
+- Utilizacion para la seleccion de fechas de  **[React-Datepicker](https://www.npmjs.com/package/react-big-calendar)**
 
 ### BACK-END
 
--Utilización de Express para creación de servidor
--bcryptjs para encriptar contraseñas
--jwt para creación de tokens y autenticación de usuarios
+- Utilización de Express para creación de servidor
+- bcryptjs para encriptar contraseñas
+- jwt para creación de tokens y autenticación de usuarios
 
 
 #### Tecnologías necesarias:
