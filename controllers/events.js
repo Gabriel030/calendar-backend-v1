@@ -11,7 +11,7 @@ const getEventos = async (req, res = response) => {
         
               return  res.status(200).json({
             ok:true,
-            msg:eventos
+            eventos:eventos
         })
 
     } catch (error) {

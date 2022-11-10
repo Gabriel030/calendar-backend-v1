@@ -56,8 +56,8 @@ const loginUsuario = async (req, res = response) => {
 
   try {
       //encuentro y traigo al usuario por el email
-        const  usuario = await Usuario.findOne({ email: email });
-
+        const  usuario = await Usuario.findOne({ email });
+    console.log("USUARIO ---->",  usuario)
       //valido que exista el usuario
         if (!usuario) {
         return res.status(400).json({
@@ -66,8 +66,9 @@ const loginUsuario = async (req, res = response) => {
         });
         }
     //confirmar el password ingresado, contra el que tiene el user que busque por email
+  
     const validPassword = bcrypt.compareSync(password, usuario.password)
-
+  
     if(!validPassword){
         res.status(400).json({
             ok:false,
@@ -83,7 +84,7 @@ const loginUsuario = async (req, res = response) => {
 
     return res.status(200).json({
         ok:true,
-        uid: usuario.uid,
+        uid: usuario.id,
         name:usuario.name,
         msg: "usuario autenticado",
         token:token
@@ -111,7 +112,9 @@ const revalidarToken = async  (req, res = response) => {
 
         res.json({
             ok: true,
-            token
+            token,
+            uid, 
+            name,
              
           
           });
